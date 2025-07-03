@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="jp">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/univ_icon.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="/src/style.css" rel="stylesheet" />
+        <title>楓葉祭特設企画</title>
+        <script>
+            (function (d) {
+                var config = {
+                        kitId: 'jgv7oub',
+                        scriptTimeout: 3000,
+                        async: true,
+                    },
+                    h = d.documentElement,
+                    t = setTimeout(function () {
+                        h.className = h.className.replace(/\bwf-loading\b/g, '') + ' wf-inactive';
+                    }, config.scriptTimeout),
+                    tk = d.createElement('script'),
+                    f = false,
+                    s = d.getElementsByTagName('script')[0],
+                    a;
+                h.className += ' wf-loading';
+                tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+                tk.async = true;
+                tk.onload = tk.onreadystatechange = function () {
+                    a = this.readyState;
+                    if (f || (a && a != 'complete' && a != 'loaded')) return;
+                    f = true;
+                    clearTimeout(t);
+                    try {
+                        Typekit.load(config);
+                    } catch (e) {}
+                };
+                s.parentNode.insertBefore(tk, s);
+            })(document);
+        </script>
+      <script type="module" crossorigin src="/assets/index-BTfBdYwe.js"></script>
+      <link rel="stylesheet" crossorigin href="/assets/index-CyV0Uw9-.css">
+    </head>
+    <body>
+        <div id="root"></div>
+    </body>
+</html>
